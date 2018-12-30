@@ -45,3 +45,14 @@ function johnLennonFacts(facts){
   }
   return johnLennonFactsNew;
 }
+
+function iLoveTheBeatles(number){
+  var love = [];
+  var i = 0;
+  do {
+    love.push(`I love the Beatles!`);
+    i++;
+  }
+  while ( i <= number && number < 15);
+  return love;
+}
