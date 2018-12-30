@@ -30,8 +30,8 @@
 function theBeatlesPlay(musicians, instruments){
   var play =[];
   for(var  i=0;i < theBeatlesPlay.length; i++){
-    play.push(`${musicians[i]} plays $`)
-    
-  }
+    play.push(`${musicians[i]} plays ${instruments[i]}`)
+    }
+    return play
 }
 
