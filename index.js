@@ -40,8 +40,8 @@ function johnLennonFacts(facts){
   var johnLennonFactsNew = [];
   let i = 0;
   while (i < facts.lenth){
-    array.push(`${facts}!!!`);
-    i++
+    array.push(`${facts[i]}!!!`);
+    i++;
   }
   return johnLennonFactsNew;
 }
